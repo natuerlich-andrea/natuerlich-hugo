@@ -10,6 +10,8 @@ Two hundred and forty-eight.2 years, six months, and nineteen days ago
 to-day, the Parisians awoke to the sound of all the bells in the triple
 circuit of the city, the university, and the town ringing a full peal.
 
+# Today it happens...
+
 The sixth of January, 1482, is not, however, a day of which history has
 preserved the memory. There was nothing notable in the event which thus
 set the bells and the bourgeois of Paris in a ferment from early morning.
@@ -38,6 +40,8 @@ been cried, to the sound of the trumpet, the preceding evening at all the
 cross roads, by the provost’s men, clad in handsome, short, sleeveless
 coats of violet camelot, with large white crosses upon their breasts.
 
+## The Crowd gathers
+
 So the crowd of citizens, male and female, having closed their houses and
 shops, thronged from every direction, at early morn, towards some one of
 the three spots designated.
@@ -56,6 +60,8 @@ they knew that the Flemish ambassadors, who had arrived two days
 previously, intended to be present at the representation of the mystery,
 and at the election of the Pope of the Fools, which was also to take place
 in the grand hall.
+
+## No Easy Matter
 
 It was no easy matter on that day, to force one’s way into that grand
 hall, although it was then reputed to be the largest covered enclosure in
@@ -79,3 +85,7 @@ buffet of an archer, or the horse of one of the provost’s sergeants, which
 kicked to restore order; an admirable tradition which the provostship has
 bequeathed to the constablery, the constablery to the _maréchaussée_,
 the _maréchaussée_ to our _gendarmeri_ of Paris.
+
+# Next Chapter
+
+what will it be?
