@@ -22,7 +22,7 @@ jobs:
         with:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: natuerlich-andrea/natuerlich-andrea.github.io
-          publish_dir: .public
+          publish_dir: ./public
           #keep_files: true
           user_name: natuerlich-andrea
           user_email: natuerlich-andrea@anfinema.de
