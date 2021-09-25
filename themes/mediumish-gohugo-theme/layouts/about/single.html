@@ -18,6 +18,7 @@
             {{ with .Site.Params.index.mdtext }}
             <div class="index-text">{{ . | markdownify }}</div>
             {{ end }}
+         {{ .Content }}
         </section>
     </div>
 {{end}}
