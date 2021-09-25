@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="ce242b46-7866-4613-b340-ec35e6b5a3dc" data-blockingmode="auto" type="text/javascript"></script>
+  <style>
+    #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll, 
+    #CybotCookiebotDialogBodyContentTitle, 
+    #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
+    #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll,
+    .CybotCookiebotDialogBodyLevelButtonWrapper,
+    #CybotCookiebotDialogBodyLevelDetailsButton,
+    #CybotCookiebotDialogBodyContentText {
+      font-family: sharktooth, sans-serif!important;
+    }
+    .CybotCookiebotDialogBodyLevelButtonWrapper[title~=Region] {
+      visibility: hidden!important;
+      width:0px!important;
+    }
+    #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll {
+      background-color: #bdcdeb!important;
+      color: #000!important;
+    }
+    a#CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll {
+    border: 1px solid #bdcdeb!important;
+    }
+    #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
+    #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+      background-color: #5d763c!important;
+      border: none!important;
+    }
+    #CybotCookiebotDialog,#CybotCookiebotDialogDetail {
+      background-color: #f2f2f2!important;
+    }
+    #CybotCookiebotDialogPoweredbyImage {
+      opacity: 0;
+      image-width: 0px;
+    }
+  </style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	{{ hugo.Generator }}
+	{{ with .Site.Params.logo }}
+	<link rel="icon" href="{{ . | urlize | relURL }}">
+	{{ end }}
+	<title>{{ .Page.Title }} | {{ .Site.Title }}</title>
+	{{ with .Site.Params.meta.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
+
+	{{ template "_internal/twitter_cards.html" . }}
+	{{ template "_internal/opengraph.html" . }}
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="{{ "/css/medium.css" | urlize | relURL }}" rel="stylesheet">
+	<link href="{{ "/css/additional.css" | urlize | relURL }}" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/vtj4qef.css">
+
+	<!-- Custom css -->
+	{{ range .Site.Params.customCSS -}}
+	{{ $style := resources.Get . }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen">
+	{{- end }}
+</head>
+
+<body>
+  {{- partial "_shared/navbar.html" . -}}
+  <div class="site-content">   
+      <div class="container">
+          {{ .Content }}
+          <script id="CookieDeclaration" src="https://consent.cookiebot.com/ce242b46-7866-4613-b340-ec35e6b5a3dc/cd.js" type="text/javascript" async></script>
+      </div>
+      {{- partial "_shared/footer.html" . -}}
+  </div>
+  {{- partial "_shared/js.html" . -}}
+  {{ template "_internal/google_analytics.html" . }}
+</body>
+</html>
