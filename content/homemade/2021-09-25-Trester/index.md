@@ -1,0 +1,7 @@
+---
+title: "Trester"
+date: 2021-09-25T00:25:15+02:00
+draft: false
+tags: ["nachhaltig","Küche"]
+---
+Na, was ist das? Nein, keine neue Eissorte 😉. Es ist der Trester meines morgendlichen Gemüsesaftes. Ich verarbeite den anfallenden Trester weiter, indem ich ihn im Dörrgerät trockne. Anschließend vermahle ich ihn zu Pulver und hebe ihn auf, bis ich das nächste Brot backe. Manchmal gebe ich das Pulver auch in eine Suppe, ein Gemüsegericht oder in einen Quicheteig. Da sind der Phantasie kaum Grenzen gesetzt. Ich liebe es, so wenig wie möglich wegzuwerfen. Für mich hat das ganz viel mit der Wertschätzung dem Lebensmittel gegenüber zu tun und auch allen gegenüber, die dazu beigetragen haben, dass ich es jetzt verwenden kann. Und da kommen eine ganze Menge Leute, jede Menge Zeit und Energie zusammen, bis so ein Lebensmittel für uns im Supermarkt liegt. Ich beziehe allerdings inzwischen den Großteil meines Gemüses von einer Solidarischen Landwirtschaft hier in Ostfriesland. Vom Gröönlandhof in Wrisse. Wen das Konzept dieser Art von Landwirtschaft interessiert, der kann sich [hier](https://www.groeoenlandhof.de/) informieren.
