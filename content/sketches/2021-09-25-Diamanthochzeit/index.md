@@ -1,7 +1,7 @@
 ---
 title: "Eine Diamanthochzeit in Bildern"
 date: 2021-07-31T20:25:15+02:00
-draft: true
+draft: false
 tags: ["sketchnotes"]
 ---
 
