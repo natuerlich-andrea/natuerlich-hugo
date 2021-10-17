@@ -1,0 +1,8 @@
+---
+title: "NWK-Imagefilm"
+date: 2021-10-17T20:25:15+02:00
+draft: true
+tags: ["sketchnotes"]
+---
+
+Diese und viele weitere Sketchnotes habe ich füe einen kurzen Imagefilm für meine Website [Natürlich!Wildkräuter](https://natuerlich-wildkraeuter.de).gezeichnet. Neben meiner Freude am Zeichnen, die ich hier mal wieder nutzen konnte, habe ich gleich noch ein bisschen etwas über das Schneiden und Vertonen eines Filmes lernen und ausprobieren können. Wenn man so etwas einmal selbst gemacht hat und merkt, wieviel Arbeit, Kreativität und Geduld darin stecken, dann weiß man die Arbeit und das Können professioneller Filmemacher gleich noch einmal viel mehr zu würdigen.
