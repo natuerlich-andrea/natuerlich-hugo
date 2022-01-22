@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: static/images/uploads
+public_folder: /images/uploads
+site_url: https://natuerlich-andrea.netlify.app
+logo_url: https://natuerlich-andrea.netlify.app/images/logo.png
+locale: 'de'
+collections:
+  - name: creative
+    label: Kreatives
+    folder: content/creative
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Weight', name: 'weight', widget: 'number', required: false }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Photo', name: 'photo', widget: 'image', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: pages
+    label: Pages
+    files:
+      - label: 'Konzept - Werte'
+        name: values
+        file: data/values.yml
+        fields:
+          - label: value
+            name: value
+            widget: list
+            fields:
+              - { label: 'Name', name: 'name', widget: 'string' }
+              - { label: 'Icon-80-80', name: 'icon', widget: 'image' }      
+              - { label: 'Explanation', name: 'explanation', widget: 'markdown' }
