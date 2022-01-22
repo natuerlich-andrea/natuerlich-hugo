@@ -16,6 +16,7 @@ collections:
       preview: false
     fields:
       - { label: 'Datum', name: 'date', widget: 'datetime', required: true }
+      - { label: 'Entwirf', name: 'draft', widget: 'boolean', default: false }
       - { label: 'Titel', name: 'title', widget: 'string', required: true }
       - { label: 'Bild', name: 'image', widget: 'image', required: false }
       - { label: 'Text', name: 'body', widget: 'markdown',  required: true}
