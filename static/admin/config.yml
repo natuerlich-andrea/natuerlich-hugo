@@ -20,17 +20,42 @@ collections:
       - { label: 'Titel', name: 'title', widget: 'string', required: true }
       - { label: 'Bild', name: 'image', widget: 'image', required: false }
       - { label: 'Text', name: 'body', widget: 'markdown',  required: true}
-  - name: pages
-    label: Pages
-    files:
-      - label: 'Konzept - Werte'
-        name: values
-        file: data/values.yml
-        fields:
-          - label: value
-            name: value
-            widget: list
-            fields:
-              - { label: 'Name', name: 'name', widget: 'string' }
-              - { label: 'Icon-80-80', name: 'icon', widget: 'image' }      
-              - { label: 'Explanation', name: 'explanation', widget: 'markdown' }
+  - name: homemade
+    label: Alltägliches
+    folder: content/homemade
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Datum', name: 'date', widget: 'datetime', required: true }
+      - { label: 'Entwurf', name: 'draft', widget: 'boolean', default: false }
+      - { label: 'Titel', name: 'title', widget: 'string', required: true }
+      - { label: 'Bild', name: 'image', widget: 'image', required: false }
+      - { label: 'Text', name: 'body', widget: 'markdown',  required: true}
+  - name: inspirations
+    label: Inspirationen
+    folder: content/inspirations
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Datum', name: 'date', widget: 'datetime', required: true }
+      - { label: 'Entwurf', name: 'draft', widget: 'boolean', default: false }
+      - { label: 'Titel', name: 'title', widget: 'string', required: true }
+      - { label: 'Bild', name: 'image', widget: 'image', required: false }
+      - { label: 'Text', name: 'body', widget: 'markdown',  required: true}
+  - name: sketches
+    label: Zeichnungen
+    folder: content/sketches
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Datum', name: 'date', widget: 'datetime', required: true }
+      - { label: 'Entwurf', name: 'draft', widget: 'boolean', default: false }
+      - { label: 'Titel', name: 'title', widget: 'string', required: true }
+      - { label: 'Bild', name: 'image', widget: 'image', required: false }
+      - { label: 'Text', name: 'body', widget: 'markdown',  required: true}
