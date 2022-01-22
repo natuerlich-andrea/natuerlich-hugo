@@ -15,10 +15,10 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Weight', name: 'weight', widget: 'number', required: false }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Photo', name: 'image', widget: 'image', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Datum', name: 'date', widget: 'datetime', required: true }
+      - { label: 'Titel', name: 'title', widget: 'string', required: true }
+      - { label: 'Bild', name: 'image', widget: 'image', required: false }
+      - { label: 'Text', name: 'body', widget: 'markdown',  required: true}
   - name: pages
     label: Pages
     files:
