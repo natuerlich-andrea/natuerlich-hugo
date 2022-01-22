@@ -43,10 +43,7 @@
                     </div>
 
                     <!-- Post Featured Image -->
-                    {{$images := .Resources.ByType "image"}}
-                    {{with $images.GetMatch "*cover*" }}
-                        <img class="featured-image img-fluid" src="{{ .Permalink }}" alt="thumbnail for this post">
-                    {{end}}
+                    <img class="featured-image img-fluid" src="/images/blog/{{.Params.image}}" alt="thumbnail for this post">
                     <!-- End Featured Image -->
 
                     <!-- Post Content -->

@@ -2,6 +2,7 @@
 title: "Häkeltücher"
 date: 2021-10-17T00:25:15+02:00
 draft: false
+image: 2021-09-28-Tuecher-cover.jpg
 tags: ["Häkeln","Haushalt","handmade", "Nachhaltigkeit"]
 ---
 

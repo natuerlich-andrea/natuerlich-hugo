@@ -2,6 +2,7 @@
 title: "Eine Diamanthochzeit in Bildern"
 date: 2021-07-31T20:25:15+02:00
 draft: false
+image: 2021-09-25-Diamanthochzeit-cover.jpg
 tags: ["sketchnotes"]
 ---
 

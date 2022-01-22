@@ -2,6 +2,7 @@
 title: "Wildkräuter-Website"
 date: 2021-10-17T20:25:15+02:00
 draft: false
+image: 2021-10-17-nwk-website-cover.png
 tags: ["sketchnotes"]
 ---
 
