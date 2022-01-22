@@ -2,7 +2,7 @@
 title: "Komposttüte"
 date: 2021-10-17T00:25:15+02:00
 draft: false
-image: 2021-10-17-Papiertüte-cover.jpg
+image: /images/blog/2021-10-17-Papiertüte-cover.jpg
 tags: ["Nachhaltigkeit","Haushalt","handmade","kreativeIdeen"]
 ---
 
