@@ -96,6 +96,7 @@
     }
     .song-line {
         margin: 0;
+        font-size: normal;
     }}
 
 .song-audio {
