@@ -1,5 +1,3 @@
 # Demo
 
-This is the demonstration site of the [Mediumish GoHugo Theme](https://github.com/lgaida/mediumish-gohugo-theme)
-Run `hugo server -w -v`
-
+The site is being deployed via netlify. Login to netlify with the github account "natuerlich-andrea"

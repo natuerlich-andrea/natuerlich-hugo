@@ -1,6 +1,7 @@
-"---
-title: "Impressum"
-date: 2018-10-07T11:12:00+02:00
+---
+title: "Lebenspuzzle"
+date: 2024-12-24T12:00:00+01:00
+image: /images/songs/lebenspuzzle.png
 ---
 
 {{< rawhtml >}}
