@@ -44,3 +44,66 @@
 .shark {
     font-family: sharktooth;
 }
+
+.song-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.song-image {
+    object-fit: cover;
+    height: 300px;
+}
+
+.song-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.song-post {
+    margin-top: 5px;
+    margin-left: 0px;
+    background-color: rgb(195, 236, 236);
+    color: rgba(0,0,0);
+    font-family: sharktooth;
+    font-size: 1.2rem!important;
+}
+
+@media(min-width: 769px){
+    .song-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    .song-image {
+        width: 30%;
+        display: visible;
+        object-fit: cover;
+        height: 100%;
+        }
+
+    .song-post {
+        width: 70%;
+        margin-top: 0px;
+        margin-left: 5px;
+        background-color: rgb(195, 236, 236);
+        color: rgba(0,0,0);
+        font-family: sharktooth;
+        font-size: 1.2rem!important;
+    }
+    .song-line {
+        margin: 0;
+    }}
+
+.song-audio {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+}
+.song-line {
+    margin: 0;
+    font-size: small;
+}

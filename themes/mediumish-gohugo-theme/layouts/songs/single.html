@@ -43,14 +43,25 @@
                         <h1 class="posttitle">{{ .Title }}</h1> 
                     </div>
 
-                    <!-- Post Featured Image -->
-                    <img class="featured-image img-fluid" src="{{.Params.image}}" alt="thumbnail for this post">
-                    <!-- End Featured Image -->
-
                     <!-- Post Content -->
-                    <div class="article-post">
-                        {{ .Content}}
+                    <div class="song-box">
+                        <!-- Post Featured Image -->
+                        <div class="song-image">
+                            <img class="img-fluid" src="{{.Params.image}}" alt="thumbnail for this post">
+                        </div>
+                        <!-- End Featured Image -->
+                        <div class="song-post">
+                                                        
+                            <audio controls class = "song-audio">
+                                <source src="{{.Params.source}}" type="audio/wav">
+                                Your browser does not support the audio element.
+                              </audio>
+                              
+                            {{ .Content}}
+                        </div>
                     </div>
+                    
+
                     
                 </div>
                 <!-- End Post -->
