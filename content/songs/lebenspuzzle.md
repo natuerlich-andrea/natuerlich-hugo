@@ -34,11 +34,11 @@ source: /audio/Lebenspuzzle.wav
 <p class="song-line">Alle Teile im Puzzle unseres Lebens, im Treiben der Welt</p>
 <p class="song-line">Ob schwer oder leicht, nichts war umsonst, alles zählt</p>
 <p class="song-line">Sortieren wir die Dinge mit den Augen derLiebe an ihren Platz</p>
-<p class="song-line">Wird nahezu jedes Geschehen, jedeErfahrung zum Schatz</p>
+<p class="song-line">Wird nahezu jedes Geschehen, jede Erfahrung zum Schatz</p>
 <br/>
 <p class="song-line">Alle Teile des Puzzles, mit Geduld fügen sie sich ein</p>
 <p class="song-line">Zu einem lebendigen Gesamtbild, so darf es sein</p>
 <p class="song-line">So bunt und detailreich, wie die Welt und unser Leben</p>
 <p class="song-line">Mit der Zeit wird alles einen tiefen Sinn ergeben</p>
-
+<br/>
 {{</rawhtml>}}

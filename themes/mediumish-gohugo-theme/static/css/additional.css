@@ -95,8 +95,9 @@
         font-size: 1.2rem!important;
     }
     .song-line {
-        margin: 0 0 0 2px;
-        font-size: normal;
+        margin: 0;
+        padding: 0 0 0 5px;
+        font-size: 1rem!important;
     }}
 
 .song-audio {
